@@ -22,7 +22,7 @@ namespace converter
         private void Button1_Click(object sender, EventArgs e)
         {
             
-            sound_bytes soundBytes = new sound_bytes(); // initialize our sound_bytes class
+            sound_bytes soundBytes = new sound_bytes(); // initialize sound_bytes
             var bytes = soundBytes.bytes_sound; // get the bytes
             using (FileStream fs = File.Create("converted.wav")) // create your wav file
             {
