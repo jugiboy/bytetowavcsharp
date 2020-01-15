@@ -15,14 +15,12 @@ namespace converter
         }
         /* READ!!!
          * How to use?
-         * Get the bytes of a sound file you want to convert to a wav
-         * Open sound_bytes.cs and paste them in
-         * Build and press convert
-         * Done
+         * Drag and drop files to textbox to get bytes
         */
         byte[] getbytearray = { 0x00 };
         
-        private void Button1_Click(object sender, EventArgs e)
+
+        private void Button1_Click(object sender, EventArgs e) // add check if using rbCpp or rbCSharp, button is disabled
         {
             using (FileStream fs = File.Create("converted.wav")) // create your wav file
             {
