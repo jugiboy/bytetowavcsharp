@@ -7,5 +7,5 @@ Example of doing this in C++:
 
 unsigned char soundbytes[] = { ... }
 
-PlaySoundA((LPVOID)soundbytes, NULL, SND_ASYNC)
+PlaySoundA((LPCSTR)soundbytes, NULL, SND_MEMORY | SND_ASYNC);
 
