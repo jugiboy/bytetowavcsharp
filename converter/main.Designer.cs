@@ -104,8 +104,7 @@
             this.Name = "main";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Convert bytes to WAV";
-            this.Load += new System.EventHandler(this.main_Load);
+            this.Text = "WAV converter";
             this.ResumeLayout(false);
             this.PerformLayout();
 
